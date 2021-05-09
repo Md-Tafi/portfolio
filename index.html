@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio web site</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <link rel="stylesheet" href="" type="text/css" id="theme_style">
+ 
+</head>
+
+<body>
+
+    <!-- home section start -->
+    <section class="section_one">
+        <div class="main_container">
+            <div class="greeting_msg">
+                <h1>Hello..! i'm MD Tafiz Hasan Tafi..</h1>
+            </div>
+
+            <!-- intro wraper -->
+            <div class="intro_wraper">
+                <div class="nav">
+                    <div class="dot_wraper">
+                        <div class="dots" id="dot1"></div>
+                        <div class="dots" id="dot2"></div>
+                        <div class="dots" id="dot3"></div>
+                    </div>
+
+                    <div class="navigation">
+                        <a href="#">contact</a>
+                    </div>
+                </div>
+
+
+                <!-- start of left content -->
+                <div class="left_content">
+                    <img class="profile_picture" src="images/IMG_2815.jpg" alt="">
+                    <h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
+
+                    <div class="theme_btn_wraper">
+                        <div data-mode="light" id="light" class="theme_dot"></div>
+                        <div data-mode="blue" id="blue" class="theme_dot"></div>
+                        <div data-mode="green" id="green" class="theme_dot"></div>
+                        <div data-mode="purple" id="purple" class="theme_dot"></div>
+                    </div>
+
+
+                    <p id="theme_setting_text">Theme setting will be saved for <br> your next visit </p>
+                </div>
+
+                <!-- start of right content -->
+                <div class="right_content">
+                    <div class="preview">
+                        <div id="top_left" class="previwe_dot"></div>
+                        <div id="top_right" class="previwe_dot"></div>
+                        <h3>What Do I Do?</h3>
+                        <p>I'm a fullstack Web Developer. <br> I'v been working this field for more than 3 years.</p>
+                        <div id="bottom_left" class="previwe_dot"></div>
+                        <div id="bottom_right" class="previwe_dot"></div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- home section end -->
+
+
+
+
+    <!-- about section start-->
+    <section class="section_two">
+        <div class="main_container">
+
+            <!-- about container -->
+
+            <div class="about_container">
+
+                <!-- about left -->
+                <div class="about_left">
+
+                    <div class="about_me">
+                        <h4>More About Me..</h4>
+                        <p>I build beautiful and supper fast web application that attract clients.I also provide all of
+                            the feciltis after complete my job.</p>
+
+                        <p>And i make website more securely. Hackers can't attempt hacks into it.</p>
+
+                        <hr>
+
+                        <h4>Top Experiance</h4>
+
+                        <p>To know me better <a href="#">download</a> my resume.</p>
+
+
+                        <div class="skills">
+                            <ul>
+                                <li>Python</li>
+                                <li>Django</li>
+                                <li>React</li>
+                                <li>Node.js</li>
+                                <li>Javascript</li>
+                            </ul>
+
+                            <ul>
+                                <li>AWS</li>
+                                <li>Data stracture</li>
+                                <li>Algorithm</li>
+                                <li>Goggle Map API</li>
+                                <li>HTML/CSS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- about right -->
+                <div class="about_right">
+                    <img src="images/portfolio.png" alt="">
+
+                    <h3>Find Me On Social Media</h3>
+
+                    <a href="#" target="_blank">Youtube: @Tafiz Hasan Tafi</a>
+                    <a href="#" target="_blank">Twetter: @tafiz hasan</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
+
+
+
+
+    <!-- portfolio section start -->
+    <section class="section_one">
+        <div class="main_container">
+
+            <h3 style="text-align: center;">Some Of My Past Projects</h3>
+            <div class="post_box">
+
+                <div class="post">
+                    <img src="images/laptop-2557571_1920.jpg" alt="" class="thumbnail">
+                    <div class="post_preview">
+                        <h5>Labrotory Management system</h5>
+                        <p>It's one of my best project that i have ever done</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <img src="images//laptop-3196481_1920.jpg" alt="" class="thumbnail">
+                    <div class="post_preview">
+                        <h5>labrotory Management system</h5>
+                        <p>It's one of my best project that i have ever done</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <img src="images/laptop-4906312_1920.jpg" alt="" class="thumbnail">
+                    <div class="post_preview">
+                        <h5>labrotory Management system</h5>
+                        <p>It's one of my best project that i have ever done</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- portcolio section end -->
+
+
+
+    <!-- contact section start -->
+    <section class="section_two">
+        <div class="main_container" style="padding-bottom: 50px;">
+
+
+            <h3 style="text-align: center; margin-top: 0;">Get In Touch</h3>
+
+            <form id="input_form" >
+                <label for="">Name</label>
+                <input type="text" class="input_field" name="name">
+                <label for="">Subject</label>
+                <input type="text" class="input_field" name="subject">
+                <label for="">Email</label>
+                <input type="text" class="input_field" name="email" required>
+                <label for="">Message</label>
+                <textarea name="textarea" id="" class="input_field"></textarea>
+
+                <input type="submit" id="submit_btn" value="Send" disabled>
+            </form>
+
+
+
+        </div>
+    </section>
+    <!-- contact section end -->
+
+
+    <!-- scripting -->
+
+   <script src="appTheme.js" type="text/javascript"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+:root {
+    --mainColor: #606B56;
+    --secondColor: #515a48;
+
+    --borderColor: #161914;
+
+    --mainText: #fff;
+    --secondText: #eeeeee;
+
+    --themeDot: #FFF;
+    --previewBg: rgba(81, 90, 72, 0.8);
+    --previewShadow: #2a2f25;
+    --buttonColor:#669966;
+}
